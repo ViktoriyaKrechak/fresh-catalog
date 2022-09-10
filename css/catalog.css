@@ -1,0 +1,236 @@
+.catalog { 
+  position: relative;
+}
+
+.catalog__buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-bottom: 45px;  
+}
+
+.catalog__btn {
+  margin: 0 25px;
+  font-family: 'Neucha', sans-serif;
+  font-size: 35px;
+  background-color: transparent;
+  border-radius: 15px;
+  border: 2px solid #FFB13C;
+  padding: 0 37px;
+  color: #23411D;
+  cursor: pointer;
+  line-height: 60px;
+  transition: .9s;
+}
+
+.catalog__btn:hover,
+.catalog__btn:active {
+  background-color: #FFB13C;
+}
+
+.img-slider .swiper {
+  height: calc((100% - 20px) / 2);
+  margin: 0 auto;
+  overflow: hidden;   
+}
+
+.img-slider__mask {
+  position: absolute;
+  top: 10.5%;
+  left: 0;
+  width: 100%;
+  height: 83.5%;
+  background: radial-gradient(circle, rgba(35,65,29,.2) 0%, rgba(255,255,255,1) 100%);
+}
+
+.img-slider__img-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.img-mask__img {
+  position: absolute;
+  z-index: 999;
+  background: linear-gradient(180deg, #FFB13C 8.53%, rgba(255, 177, 60, 0) 67.39%);
+  height: 98%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+
+.img-slider__img {
+  height: 480px;
+}
+
+.img-link__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.img-content__img {
+  margin: 10% auto;
+  font-size: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #23411D;
+  z-index: 999;
+}
+
+.img-slider .swiper-button-prev::after,
+.img-slider .swiper-button-next::after {
+  color: #FFB13C;
+  font-size: 45px;
+  font-weight: 800;
+  background:#23411ddd;
+  display: block;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
+
+.img-slider .swiper-button-prev,
+.img-slider .swiper-button-next {
+  top: 49.5%;
+  position: absolute;
+  color: #23411D;
+  z-index: 999;
+}
+
+.img-slider .swiper-pagination {
+  bottom: 0;
+  top: 49%;
+  position: absolute;
+}
+
+.img-slider .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  background-color: #ffb13c;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0s linear;
+  /* анимация перехода */
+  pointer-events: none;
+  /* элемент невидим для событий мыши */
+}
+
+.modal--show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* ширина модального окна и его отступы от экрана */
+.modal__dialog {
+  position: relative;
+  max-width: 550px;
+  margin: 10% auto;
+}
+
+/* свойства для блока, содержащего контент модального окна */
+.modal__text {
+  font-size: 20px;
+  align-self: center;
+  text-align: justify;
+  padding: 0 20px 0 40px;
+  max-width: 450px;
+}
+
+/* свойства для текста модального окна */
+.modal__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  border: 2px solid #FFB13C;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-radius: 15px;
+  outline: 0;
+  min-height: 450px;
+}
+
+.modal__inf {
+  border: 2px solid #FFB13C;
+  background-color: #FFB13C;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50%;
+  max-width: 290px;
+  position: absolute;
+  top: 30%;
+  right: -25%;
+  padding: 25px;
+}
+
+/* свойства для кнопки "Закрыть" */
+.modal--close {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 0.1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .8;
+  text-decoration: none;
+}
+
+/* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
+.modal--close:focus,
+.modal--close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.img, .img-mask {
+  position: absolute;
+  top: 15%;
+  left: -35%;
+  width: 220px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.img-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-mask {
+  background: linear-gradient(180deg, #FFB13C 8.53%, rgba(255, 177, 60, 0) 67.39%);
+}
+
+.img-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.img-content {
+  margin: 10% auto;
+  font-size: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #23411D;
+  z-index: 999;
+}

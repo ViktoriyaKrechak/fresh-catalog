@@ -1,0 +1,20 @@
+.footer__row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.footer__link {
+  color: #23411D;
+}
+
+.footer__text {
+  border-radius: 15px;
+  border: 2px solid #FFB13C;
+  padding: 0 2px;
+  color: #23411D;
+  line-height: 45px;
+  background-color: #FFB13C;
+}
+
+

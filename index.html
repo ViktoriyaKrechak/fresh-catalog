@@ -1,0 +1,2189 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="shortcut icon" href="img/elements/cherries.svg" />
+    <title>Green Shop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="fullscreen">
+        <header class="header">
+          <div class="container">
+            <div class="header__row">
+              <div class="header__logo">
+                <a class="header__logo-link" href="#firstscreen">Vitamin box</a>
+              </div>
+              <nav class="header__menu header__menu--active">
+                <button type="button" class="header__menu-btn">
+                  <span class="header__menu-line"></span>
+                </button>
+                <ul class="header__list">
+                  <li class="header__list-item">
+                    <a
+                      class="header__menu-link header__menu-link--active"
+                      href="#firstscreen"
+                      >Главная</a
+                    >
+                  </li>
+                  <li class="header__list-item">
+                    <a
+                      class="header__menu-link header__menu-link--active"
+                      href="#about"
+                      >О нас</a
+                    >
+                  </li>
+                  <li class="header__list-item">
+                    <a
+                      class="header__menu-link header__menu-link--active"
+                      href="#catalog"
+                      >Каталог</a
+                    >
+                  </li>
+                  <li class="header__list-item">
+                    <a
+                      class="header__menu-link header__menu-link--active"
+                      href="#order"
+                      >Заказать</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <ul class="header__icons">
+                <li class="header__icon">
+                  <a
+                    class="header__link header__link-tg fab fa-telegram-plane"
+                    href="https://t.me/vitaminbox"
+                  ></a>
+                </li>
+                <li class="header__icon">
+                  <a
+                    class="header__link header__link-tel fas fa-phone-alt"
+                    href="tel:375336847517"
+                  ></a>
+                </li>
+                <li class="header__icon">
+                  <a
+                    class="header__link header__link-inst fab fa-instagram-square"
+                    href="https://instagram.click/vitaminbox.by"
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+
+        <section class="firstscreen" id="firstscreen">
+          <div class="container">
+            <h1
+              class="title firstscreen__title firstscreen__title--circle--orange"
+            >
+              Экзотические фрукты, полезные овощи и свежие ягоды с доставкой по
+              Минску и Беларуси
+            </h1>
+            <form
+              class="form__order form__order--big"
+              action="#"
+              method="POST"
+              id="form__order"
+            >
+              <div class="form__title">
+                Оставьте заявку — и мы свяжемся с вами в ближайшее время:
+              </div>
+              <div class="form__item form--circle--orange">
+                <label class="form__label"
+                  ><span class="form__label-item">Ваше имя</span
+                  ><input
+                    class="input__item"
+                    id="form__name"
+                    type="text"
+                    required
+                /></label>
+              </div>
+              <div class="form__item">
+                <label class="form__label"
+                  ><span class="form__label-item">Телефон</span
+                  ><input
+                    class="input__item"
+                    id="form__tel"
+                    type="tel"
+                    required
+                /></label>
+              </div>
+              <button class="form__btn">Оставить заявку</button>
+            </form>
+          </div>
+        </section>
+      </div>
+
+      <section class="about" id="about">
+        <h2 class="subtitle about__subtitle subtitle--circle--orange">
+          Почему стоит выбрать нас?
+        </h2>
+        <div class="about__row">
+          <div class="about__item">
+            <div class="about__img">
+              <img
+                class="about__img-picture"
+                src="img/pictures/people.png"
+                alt="people"
+              />
+            </div>
+            <div class="about__text about__text--circle--orange">
+              Vitaminbox — команда молодых профессионалов. Мы любим фрукты и
+              овощи, а главное — знаем, как их выбрать.
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__img">
+              <img
+                class="about__img-picture"
+                src="img/pictures/globe.png"
+                alt="globe"
+              />
+            </div>
+            <div class="about__text about__text--circle--orange">
+              Работаем напрямую с производителями (Вьетнам, Тайнланд,
+              Азербайджан, Иран, Турция).
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__img">
+              <img
+                class="about__img-picture"
+                src="img/pictures/fruits.png"
+                alt="fruits"
+              />
+            </div>
+            <div class="about__text about__text--circle--orange">
+              Располагаем большим ассортиментом фруктов и овощей. При отсутствии
+              чего-либо в наличии — привозим через 7 дней.
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__img">
+              <img
+                class="about__img-picture"
+                src="img/pictures/gift.png"
+                alt="gift"
+              />
+            </div>
+            <div class="about__text about__text--circle--orange">
+              Красиво оформляем ваши заказы. Собираем подарочные наборы,
+              подписываем открытки от вашего имени.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">        
+        <div class="catalog__buttons">
+          <button
+            class="catalog__btn catalog__btn--fruits"
+            onClick="toggleSlider()"
+          >
+            Фрукты
+          </button>
+          <button
+            class="catalog__btn catalog__btn--berries"
+            onClick="toggleSlider()"
+          >
+            Ягоды
+          </button>
+          <button
+            class="catalog__btn catalog__btn--vegetables"
+            onClick="toggleSlider()"
+          >
+            Овощи
+          </button>
+        </div>
+
+        <div class='img-slider__mask'></div>
+        
+        <div class="img-slider img-slider__fruits swiper">
+          <!-- Additional required wrapper -->
+          <div class="img-slider__wrapper swiper-wrapper">
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/kiwi.png"
+                    alt="kiwi"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-kiwi"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Киви</p>
+                      <p>12 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/pitahaja.png"
+                    alt="pitahaya"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-pitahaja"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Питахайя</p>
+                      <p>23 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/mango.png"
+                    alt="mango"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-mango"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Манго</p>
+                      <p>20 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/mangostin.png"
+                    alt="mangostin"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-mangostin"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Мангостин</p>
+                      <p>12 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/orange.png"
+                    alt="orange"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-orange"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Апельсин</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/grape.png"
+                    alt="grape"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-grape"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Виноград</p>
+                      <p>15 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/papaja.png"
+                    alt="papaya"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-papaja"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Папайя</p>
+                      <p>28 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/pineapple.png"
+                    alt="pineapple"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-pineapple"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Ананас</p>
+                      <p>25 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-marakuja"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/lime.png"
+                    alt="lime"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-lime"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Лайм</p>
+                      <p>3 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/marakuja.png"
+                    alt="passion fruit"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Маракуйя</p>
+                      <p>5 BYN/шт.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+</div>          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="img-slider img-slider__berries swiper">
+          <!-- Additional required wrapper -->
+          <div class="img-slider__wrapper swiper-wrapper">
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/honeysuckle.jpg"
+                    alt="honeysuckle"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Жимолость</p>
+                      <p>25 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="img-slider img-slider__veg swiper">
+            <div class="img-slider__wrapper swiper-wrapper">
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="img-slider__slide swiper-slide">
+                <div class="img-slider__img">
+                  <img
+                    class="img-slider__img-picture"
+                    src="img/elements/eggplant.jpg"
+                    alt="eggplant"
+                  />
+                </div>
+                <a
+                  class="img-link__img"
+                  href="#"
+                  data-toggle="modal"
+                  data-target="#modal-1"
+                >
+                  <div class="img-mask__img">
+                    <div class="img-content__img">
+                      <p>Баклажан</p>
+                      <p>8 BYN/кг</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+        </section>
+
+      <div id="modal-1" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды маракуйи — жёлто-оранжевые или темно-фиолетовые фрукты
+                размером 6-12 см.
+              </p>
+              <br />
+              <p>
+                Маракуйя содержит много витаминов (А, С, Е, гр. В) и полезных
+                минералов (железо, калий, фосфор, кальций, магний, йод, фтор),
+                богата клетчаткой и антиоксидантами.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/marakuja.png"
+                alt="passion fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Маракуйя</p>
+                  <p>5 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            97 ккал <br />
+            2,2 г белков<br />
+            23,38 г углеводов<br />
+            0,7 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-kiwi" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плод киви — ягода, обычно с зелёной мякотью. 
+                Вес среднего плода киви — 75 г, крупных плодов — до 150 г.
+              </p>
+              <br />
+              <p>
+                Существует достаточно много рецептов десертов и напитков с участием киви. 
+                Киви подойдёт для начинки пирогов, из него также можно приготовить джемы и мармелады.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/kiwi.png"
+                alt="kiwi fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Киви</p>
+                  <p>12 BYN/кг</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            61 ккал <br />
+            1,14 г белков<br />
+            14,66 г углеводов<br />
+            0,52 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-pitahaja" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды с гладкой кожицей, покрытой листовидными наростами. 
+                Снаружи питайя может быть красной или жёлтой. Красная питайя имеет белую либо красную мякоть.
+              </p>
+              <br />
+              <p>
+                Плод весит 150—600 граммов, отдельные экземпляры достигают килограмма.
+                Мякоть употребляется в пищу в сыром виде, имеет сладковатый вкус и низкокалорийна. 
+                Отзывы о том, что питайя невкусна, встречаются крайне редко, хотя вкус может показаться пресным.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/pitahaja.png"
+                alt="pitahaja fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Питахайя</p>
+                  <p>23 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            50 ккал <br />
+            0,5 г белков<br />
+            12,0 г углеводов<br />
+            0,3 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-orange" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Апельсин — плод апельсинного дерева. 
+                Представляет собой многогнёздную ягоду. Покрыт шероховатой оранжевой кожурой (цедрой). 
+              </p>
+              <br />
+              <p>
+                Вкус апельсина определяется в основном относительным соотношением сахаров и кислот, тогда как аромат апельсина происходит от летучих органических соединений.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/orange.png"
+                alt="orange fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Апельсин</p>
+                  <p>8 BYN/кг</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            197 ккал <br />
+            0,94 г белков<br />
+            9,35 г углеводов<br />
+            0,12 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-grape" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/grape.png"
+                alt="grape fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Виноград</p>
+                  <p>15 BYN/кг</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-mango" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/mango.png"
+                alt="mango fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Манго</p>
+                  <p>20 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-mangostin" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/mangostin.png"
+                alt="mangostin fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Мангостин</p>
+                  <p>12 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-papaja" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/papaja.png"
+                alt="papaja fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Папайя</p>
+                  <p>28 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-pineapple" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/pineapple.png"
+                alt="pineapple fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Ананас</p>
+                  <p>25 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-lime" class="modal">
+        <div class="modal__dialog">
+          <div class="modal__content">
+            <div class="modal__text">
+              <p>
+                Плоды винограда используются в пищу в свежем виде, а также перерабатываются на изюм, виноградный сок, вино, варенье, маринады, компоты, 
+                разные напитки (алкогольные и безалкогольные), а также винный уксус, включая бальзамический.
+              </p>
+              <br />
+              <p>
+                Виноград культурный растёт в умеренных и субтропических регионах, широко культивируется во многих странах всех континентов. 
+                Выращивают виноград обычно на шпалере.
+              </p>
+            </div>
+            <a href="#" class="modal--close" title="close">×</a>
+          </div>
+          <div class="img__wrap">
+            <div class="img">
+              <img
+                class="img-picture"
+                src="img/elements/lime.png"
+                alt="lime fruit"
+              />
+            </div>
+            <div class="img-mask">
+              <a class="img-link" href="#">
+                <div class="img-content">
+                  <p>Лайм</p>
+                  <p>3 BYN/шт.</p>
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="modal__inf">
+            100 г: <br />
+            69 ккал <br />
+            0,7 г белков<br />
+            18,1 г углеводов<br />
+            0,2 г жиров
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapper-bg">
+        <section class="order" id="order">
+          <div class="order__content">
+            <div class="order__text">
+              <h2 class="subtitle order__subtitle subtitle--circle--orange">
+                Как мы работаем?
+              </h2>
+              <p class="order__text-item order__text--circle--orange">
+                Вы звоните нам, сообщаете что хотели бы заказать, а также место,
+                дату и время доставки.
+              </p>
+              <p class="order__text-item order__text--circle--orange">
+                Мы обратываем полученные данные, предлагаем варианты наполнения
+                и оформления, окончательно согласовываем детали.
+              </p>
+              <p class="order__text-item order__text--circle--orange">
+                Мы доставляем оформленный заказ в назначенные время и место.
+              </p>
+              <p class="order__text-item order__text--circle--orange">
+                Вы оплачиваете заказ только после доставки и проверки его
+                комплектности. Стоимость доставки — 5 BYN. При заказе от 50 BYN
+                — доставка по Минску бесплатная.
+              </p>
+            </div>
+            <form
+              class="form__order form__order--small"
+              action="#"
+              method="POST"
+            >
+              <div class="form__title">
+                Оставьте заявку — и мы свяжемся с вами в ближайшее время:
+              </div>
+              <div class="form__item form--circle--orange">
+                <label class="form__label"
+                  ><span class="form__label-item">Ваше имя</span
+                  ><input class="input__item" type="text" required
+                /></label>
+              </div>
+              <div class="form__item">
+                <label class="form__label"
+                  ><span class="form__label-item">Телефон</span
+                  ><input
+                    class="input__item"
+                    type="tel"
+                    pattern="+[0-9]{12}"
+                    required
+                /></label>
+              </div>
+              <button class="form__btn">Оставить заявку</button>
+            </form>
+          </div>
+          <div class="order__fruits-column">
+            <div class="order__fruit">
+              <img
+                class="order__fruit-picture"
+                src="img/elements/pitahaja-right.png"
+                alt="pitahaya"
+              />
+            </div>
+            <div class="order__fruit">
+              <img
+                class="order__fruit-picture"
+                src="img/elements/carambola-right.png"
+                alt="carambola"
+              />
+            </div>
+            <div class="order__fruit">
+              <img
+                class="order__fruit-picture"
+                src="img/elements/pineapple-right.png"
+                alt="pineapple"
+              />
+            </div>
+            <div class="order__fruit">
+              <img
+                class="order__fruit-picture"
+                src="img/elements/mango-right.png"
+                alt="mango"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="footer">
+          <div class="container">
+            <ul class="footer__row">
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="https://viber.click/3752968228777"
+                >
+                  <span class="footer__text">Viber:</span>
+                  +375(29) 682-28-777
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="https://api.whatsapp.com/send/?phone=3753363201153"
+                >
+                  <span class="footer__text">WhatsApp:</span>
+                  +375(33) 632-01-153
+                </a>
+              </li>
+              <li class="footer__item">
+                <a
+                  class="footer__link"
+                  href="https://instagram.click/vitaminbox.by"
+                >
+                  <span class="footer__text">Instagram:</span>
+                  @vitaminbox.by
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!--slider connection-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bPopup/0.11.0/jquery.bpopup.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

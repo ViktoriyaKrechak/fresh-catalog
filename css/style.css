@@ -1,0 +1,125 @@
+@import url('header.css');
+@import url('firstscreen.css');
+@import url('about.css');
+@import url('catalog.css');
+@import url('order.css');
+@import url('footer.css');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+* {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(../img/bg/wrapper-bg.png);
+  background-repeat: repeat;
+  background-size: contain;
+  font-family: 'Neucha', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #23411D;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  background-color: white;
+  max-width: 1300px;
+  margin: 0 auto;
+  box-shadow: -2px 1px 9px 10px #9e9c9c;
+  position: relative; 
+}
+
+.fullscreen {
+  background-image: url(../img/bg/fullscreen-bg-bottom.png), url(../img/bg/fullsreen-bg.png);
+  background-position: bottom center, top right;
+  background-repeat: no-repeat;
+  padding-top: 26px;
+}
+
+.header {
+  width: 100%;
+  background-color: transparent;
+}
+
+.header--fixed {
+  position: fixed;
+  background-color: white;
+  padding: 15px 0;
+  z-index: 999;
+  max-width: 1300px;
+  top: 0;
+}
+
+.firstscreen {
+  width: 100%;
+  padding: 50px 0 100px 0;
+}
+
+.about {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0 auto 26px;
+  font-size: 40px;
+  position: relative;
+  z-index: 1;
+  max-width: 450px;
+}
+
+.subtitle--circle--orange::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #FFB13C;
+  border-radius: 50%;
+  border: 2px solid #FFB13C;
+  top: -60%;
+  left: 70%;
+  position: absolute;
+  z-index: -1;
+}
+
+.catalog {
+  width: 100%;
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.wrapper-bg {
+  width: 100%;
+  background-image: url(../img/bg/order-mask.png), url(../img/bg/order-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 54px;
+}
+
+.order {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  padding: 27px 0 41px;
+  border-top: 2px solid #FFB13C;
+}
+
+
+
+

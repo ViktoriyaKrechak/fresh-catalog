@@ -1,0 +1,42 @@
+.about__row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.about__item {
+  max-width: 300px;
+  margin: 0 11px;
+}
+
+.about__text {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  max-width: 296.5px;
+  margin: 0 auto;
+}
+
+.about__img {
+  margin-bottom: 26px;
+}
+
+.about__img-picture {
+  width: 300px;
+  height: 330px;
+  overflow: hidden;
+}
+
+.about__text--circle--orange::before {
+  content: "";
+  width: 32px;
+  height: 32px;
+  background-color: #ffb13c;
+  border-radius: 50%;
+  border: 2px solid #ffb13c;
+  top: -1%;
+  left: 2%;
+  position: absolute;
+  z-index: -1;
+}
+

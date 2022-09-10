@@ -1,0 +1,123 @@
+.title {
+  font-size: 50px;
+}
+
+.firstscreen__title {
+  max-width: 570px;
+  position: relative;
+  z-index: 1;
+  margin: 0 0 70px 70px;
+}
+
+.firstscreen__title--circle--orange::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FFB13C;
+  border-radius: 50%;
+  border: 2px solid #FFB13C;
+  top: -10%;
+  left: -5%;
+  position: absolute;
+  z-index: -1;
+}
+
+.form__order {
+  max-width: 570px;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-radius: 15px;
+  border: 3px solid #FFB13C;
+  z-index: 3;
+}
+
+.form__order--big::before {
+  content: "";
+  width: 570px;
+  height: 435px;
+  border: 3px solid #FFB13C;
+  position: absolute;
+  border-radius: 15px;
+  top: -2%;
+  left: 0;
+  transform: rotate(-4deg);
+  z-index: -1;
+}
+
+
+.form__title {
+  text-align: center;
+  margin-bottom: 35px;
+  max-width: 445px;
+  z-index: 3;
+}
+
+
+.form__item {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 440px;
+}
+
+.input__item {
+  border-radius: 15px;
+  border: 2px solid #FFB13C;
+  outline: none;
+  width: 340px;
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 35px;
+  font-size: 25px;
+  font-family: 'Neucha', sans-serif;
+  color: rgb(202, 200, 200);
+}
+.form__label {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.form__label-item {
+  font-size: 23px;
+  text-align: left;
+  padding-right: 15px;
+}
+
+.form__btn {
+  font-family: 'Neucha', sans-serif;
+  font-size: 30px;
+  background-color: #FFB13C;
+  border-radius: 15px;
+  border: 2px solid #FFB13C;
+  padding: 8px 124px;
+  color: #23411D;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: .9s;
+}
+
+.form__btn:hover {
+  color: white;
+}
+
+.form--circle--orange::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background-color: #FFB13C;
+  border-radius: 50%;
+  border: 2px solid #FFB13C;
+  top: 5%;
+  left: 75%;
+  position: absolute;
+  z-index: 1;
+}
+
