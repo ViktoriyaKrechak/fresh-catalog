@@ -5,8 +5,6 @@
 @import url('order.css');
 @import url('footer.css');
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Crushed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 
@@ -90,7 +88,7 @@ body {
   background-color: #FFB13C;
   border-radius: 50%;
   border: 2px solid #FFB13C;
-  top: -60%;
+  top: -30%;
   left: 70%;
   position: absolute;
   z-index: -1;

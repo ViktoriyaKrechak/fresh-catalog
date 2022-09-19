@@ -1,30 +1,25 @@
 const swiper = new Swiper('.img-slider', {
-  // Optional parameters
   direction: 'horizontal',
   speed: 400,
   loop: false,
-
-  // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     clickable: false,
     dynamicBullets: true,
   },
-
-  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  grabCursor: true,
+  grabCursor: false,
   keyboard: {
     enabled: true,
     onlyInViewport: true,
     pageUpDown: true,
   },
   autoHeight: false,
-  slidesPerView : 4,
-  spaceBetween: 20,
+  slidesPerView : 6,
+  spaceBetween: 25,
   slidesPerGroup: 2,
   centeredSlides: false,
   grid: {
@@ -34,6 +29,13 @@ const swiper = new Swiper('.img-slider', {
   freeMode: false,
   effect: 'slide',
   breakpoints: {
+    1060: {
+      slidesPerView: 5,
+      grid: {
+        fill: 'row',
+        rows: 2,
+      },
+    },
     871: {
       slidesPerView: 4,
       grid: {
@@ -42,13 +44,15 @@ const swiper = new Swiper('.img-slider', {
       },
     },
     640: {
+      spaceBetween: 20,
       slidesPerView: 3,
       grid: {
         fill: 'row',
         rows: 2,
       },
     },
-    545: {
+    400: {
+      centeredSlides: true,
       slidesPerView: 3,
       grid: {
         fill: 'row',
@@ -57,7 +61,7 @@ const swiper = new Swiper('.img-slider', {
       slidesPerGroup: 1,
     },
     300: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       grid: {
         fill: 'row',
         rows: 1,
